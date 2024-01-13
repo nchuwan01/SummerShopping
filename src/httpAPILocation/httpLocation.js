@@ -1,0 +1,1 @@
+export const APILocation = "http://localhost:8080";
