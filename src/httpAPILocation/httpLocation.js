@@ -1,1 +1,1 @@
-export const APILocation = "http://localhost:8080";
+export const APILocation = "https://onlineshopping-production.up.railway.app";
