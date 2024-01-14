@@ -14,7 +14,6 @@ function Create_Account() {
         email: email,
         password: password
     }
-
     function registerSubmitted(event)
     {
         event.preventDefault();
