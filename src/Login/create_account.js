@@ -58,7 +58,7 @@ function Create_Account() {
                     </div>
                     <div className="label_input">
                         <label> Email: </label>
-                        <input type="email" className="createInputs" value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" pattern= "^[a-zA-Z0-9._%+-]+@aurora.\edu" placeholder="Ex: john02@aurora.edu" required></input>
+                        <input type="email" className="createInputs" value={email} onChange={(e)=>{setEmail(e.target.value)}} name="email" pattern= ".+@aurora\.edu" placeholder="Ex: john02@aurora.edu" required></input>
                     </div>
                     <div className="label_input">
                         <label> Password: </label>
